@@ -204,7 +204,7 @@ $ npm install
 
 This will install all the necessary test tools for testing. There is also a Makefile in the repo to make your tests quick and easy:
 
-- `make test` will run all the tests using [Mocha](http://visionmedia.github.com/mocha/) + [Chai](http://chaijs.com/) + [CoffeeLint](http://www.coffeelint.org/)
+- `make test` will run all the tests using [Mocha](http://mochajs.org/) + [Chai](http://chaijs.com/) + [CoffeeLint](http://www.coffeelint.org/)
 - `make min` will create the minified version
 - `make` will run both the previous steps and compile everything
 
